@@ -21,8 +21,7 @@ def doviz_cevir(miktar, kaynak_kur, hedef_kur, kurlar):
 
   
     usd_miktari = miktar / kurlar[kaynak_kur]
-
-  
+    
     hedef_miktari = usd_miktari * kurlar[hedef_kur]
 
     return hedef_miktari
