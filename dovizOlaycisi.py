@@ -2,7 +2,6 @@ import requests
 
 API_ANAHTARI = "fa6a3ea8b7ab39c71cf1ac43"
 
-
 def doviz_kurlarini_getir():
     url = f"https://v6.exchangerate-api.com/v6/{API_ANAHTARI}/latest/USD"
     try:
