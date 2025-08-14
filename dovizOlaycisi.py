@@ -12,7 +12,7 @@ def doviz_kurlarini_getir():
         return veri['conversion_rates']
     except requests.exceptions.RequestException as e:
         print(f"Hata: Döviz kurları alınamadı. {e}")
-        return None 
+        return None
 
 
 def doviz_cevir(miktar, kaynak_kur, hedef_kur, kurlar):
